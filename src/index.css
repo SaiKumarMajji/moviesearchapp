@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&family=Karla&family=Roboto:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav {
+  font-family: "Karla";
+  display: flex;
+  align-items: center;
+  font-weight: 200;
+  font-size: 12px;
+  justify-content: center;
+}
+
+.color {
+  background-color: rgb(219, 215, 215);
+  background-size: cover;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.movie {
+  margin-right: 10px;
+}
+
+input {
+  width: 800px;
+  padding-left: 5px;
+  height: 30px;
+  border-width: 1px;
+  margin-right: 15px;
+}
+
+.btn {
+  background-color: rgb(97, 95, 95);
+  border-width: 0;
+  height: 35px;
+  border-radius: 15px;
+  width: 100px;
+  color: white;
+  font-family: "Karla";
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.movies {
+  background-color: white;
+  margin: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.no-movies {
+  display: flex;
+  font-weight: bold;
+  font-size: 40px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  font-family: "karla";
+}
+
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+img {
+  height: 250px;
+  width: 200px;
+}
+
+.movie-details {
+  padding: 10px;
+  font-family: "Karla";
+  font-weight: 200;
+}
+
+.movie-details h2 {
+  margin-bottom: 10px;
+}
+
+.movie-overview {
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 1rem;
+  padding: 12px;
+}
+
+.pagination button {
+  width: 40px;
+  height: 40px;
+  font-family: "Karla";
+  font-weight: 600;
+  font-size: 16px;
+  margin: 0 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: transparent;
+  color: rgb(46, 44, 44);
+  border-color: #eee;
+}
+
+.pagination button.active {
+  font-weight: 900;
+  border-color: #101010;
+  background: #ffe400;
+  color: #101010;
+}
